@@ -6,7 +6,7 @@ describe("[Challenge] Unstoppable", function () {
   let token, vault, receiverContract;
 
   const TOKENS_IN_VAULT = 1000000n * 10n ** 18n;
-  const INITIAL_hacker_TOKEN_BALANCE = 10n * 10n ** 18n;
+  const INITIAL_HACKER_TOKEN_BALANCE = 10n * 10n ** 18n;
 
   before(async function () {
     /** SETUP SCENARIO - NO NEED TO CHANGE ANYTHING HERE */
@@ -37,9 +37,9 @@ describe("[Challenge] Unstoppable", function () {
       50000n * 10n ** 18n
     );
 
-    await token.transfer(hacker.address, INITIAL_hacker_TOKEN_BALANCE);
+    await token.transfer(hacker.address, INITIAL_HACKER_TOKEN_BALANCE);
     expect(await token.balanceOf(hacker.address)).to.eq(
-      INITIAL_hacker_TOKEN_BALANCE
+      INITIAL_HACKER_TOKEN_BALANCE
     );
 
     // Show it's possible for someUser to take out a flash loan
