@@ -16,7 +16,8 @@ DO NOT USE IN PRODUCTION.
 
 # Damn Vulnerable DeFi Solutions
 
-Solutions to [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/) challenges ⛳️
+Solutions to [Damn Vulnerable DeFi ](https://www.damnvulnerabledefi.xyz/) challenges ⛳️
+< version v3.0.0 >
 
 ## Contents
 
