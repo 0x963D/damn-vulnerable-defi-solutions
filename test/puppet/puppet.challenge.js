@@ -119,7 +119,6 @@ describe("[Challenge] Puppet", function () {
       lendingPool.address,
       token.address,
       hacker.address,
-      HACKER_INITIAL_TOKEN_BALANCE,
       { value: ethers.utils.parseEther("15") }
     );
     await exploit.deployed();
